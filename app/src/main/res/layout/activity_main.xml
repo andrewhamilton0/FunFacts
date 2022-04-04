@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#51b46d"
+    android:id="@+id/relativeLayout"
     android:padding="50dp"
     tools:context=".MainActivity">
 
@@ -35,7 +36,7 @@
         android:background="@color/white"
         android:backgroundTint="#FFFFFF"
         android:text="Show Another Fun Fact"
-        android:textColor="@color/black"
+        android:textColor="#51b46d"
         app:iconTint="#FFFFFF" />
 
 </RelativeLayout>
